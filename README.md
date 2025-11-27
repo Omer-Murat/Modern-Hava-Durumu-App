@@ -1,5 +1,9 @@
 # 🌍 Modern Dünya Hava Durumu (Weather Map Tracker)
 
+![Language](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=c%2B%2B)
+![IDE](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-purple?style=for-the-badge&logo=visual-studio)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows)
+
 ![Logo](logo.png)
 
 Modern Hava Durumu, klasik hava durumu uygulamalarının aksine, interaktif bir dünya haritası üzerinde istediğiniz konuma tıklayarak anlık verileri takip etmenizi sağlayan akıllı bir masaüstü uygulamasıdır.
