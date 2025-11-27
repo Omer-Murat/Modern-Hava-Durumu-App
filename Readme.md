@@ -1,4 +1,4 @@
-🌍 Modern Dünya Hava Durumu (Weather Map Tracker)
+# 🌍 Modern Dünya Hava Durumu (Weather Map Tracker)
 
 ![Logo](logo.png)
 
@@ -8,23 +8,23 @@ Modern Hava Durumu, klasik hava durumu uygulamalarının aksine, interaktif bir 
 
 ![Uygulama Görüntüsü](screenshot.png)
 
-🌟 Öne Çıkan Özellikler
+# 🌟 Öne Çıkan Özellikler
 
-🗺️ İnteraktif Dünya Haritası: Google Maps benzeri bir deneyimle dünyayı gezinin, yakınlaşın ve istediğiniz noktaya tıklayın.
+* 🗺️ İnteraktif Dünya Haritası: Google Maps benzeri bir deneyimle dünyayı gezinin, yakınlaşın ve istediğiniz noktaya tıklayın.
 
-📍 Akıllı Konum Algılama (Reverse Geocoding): Tıkladığınız koordinatın hangi il veya ilçe olduğunu otomatik algılar ve isme göre en doğru veriyi çeker.
+*📍 Akıllı Konum Algılama (Reverse Geocoding): Tıkladığınız koordinatın hangi il veya ilçe olduğunu otomatik algılar ve isme göre en doğru veriyi çeker.
 
-🌡️ Canlı ve Anlık Veri: OpenWeatherMap API ile saniyelik sıcaklık, nem ve rüzgar bilgilerini getirir.
+* 🌡️ Canlı ve Anlık Veri: OpenWeatherMap API ile saniyelik sıcaklık, nem ve rüzgar bilgilerini getirir.
 
-📌 Çoklu Takip Sistemi: Harita üzerine aynı anda 3 farklı iğne bırakabilir ve sol panelde hepsini aynı anda kıyaslayabilirsiniz.
+* 📌 Çoklu Takip Sistemi: Harita üzerine aynı anda 3 farklı iğne bırakabilir ve sol panelde hepsini aynı anda kıyaslayabilirsiniz.
 
-🛡️ Hata Toleransı: Eğer şehir ismi API tarafından tanınmazsa, otomatik olarak koordinat moduna geçer ve veriyi garantiler.
+* 🛡️ Hata Toleransı: Eğer şehir ismi API tarafından tanınmazsa, otomatik olarak koordinat moduna geçer ve veriyi garantiler.
 
-🎨 Modern Arayüz: CustomTkinter ile göz yormayan, şık "Dark Mode" tasarımı.
+* 🎨 Modern Arayüz: CustomTkinter ile göz yormayan, şık "Dark Mode" tasarımı.
 
-📦 Kurulumsuz (Portable): Tek bir .exe dosyası olarak çalışabilir.
+* 📦 Kurulumsuz (Portable): Tek bir .exe dosyası olarak çalışabilir.
 
-📥 İndirme ve Kullanım (Kullanıcılar İçin)
+* 📥 İndirme ve Kullanım (Kullanıcılar İçin)
 
 Programı Python bilmenize gerek kalmadan kullanmak için:
 
@@ -36,7 +36,7 @@ Bu sayfanın sağ tarafındaki "Releases" kısmından en son sürümü (HavaDuru
 
 İstediğiniz noktaya tıklayın ve sol panelde verilerin belirmesini izleyin!
 
-🛠️ Kullanılan Teknolojiler
+# 🛠️ Kurulum (Geliştiriciler İçin)
 
 Bu proje, modern Python kütüphanelerinin gücüyle geliştirilmiştir:
 
@@ -44,40 +44,42 @@ Kütüphane
 
 Amaç
 
-🐍 CustomTkinter
+* 🐍 CustomTkinter
 
 Modern, yuvarlak hatlı ve karanlık mod destekli arayüz (UI) tasarımı.
 
-🌍 TkinterMapView
+* 🌍 TkinterMapView
 
 Harita görüntüleme, tile server yönetimi ve marker işlemleri.
 
-☁️ Requests
+* ☁️ Requests
 
 OpenWeatherMap ve Nominatim API'leri ile HTTP iletişimi.
 
-🖼️ Pillow (PIL)
+* 🖼️ Pillow (PIL)
 
 Logo ve ikon işleme, görsel yönetimi.
 
-⚙️ PyInstaller
+* ⚙️ PyInstaller
 
 Python kodunu tek parça .exe haline getirme.
 
-💻 Geliştiriciler İçin Kurulum (Developers)
+* 💻 Geliştiriciler İçin Kurulum (Developers)
 
 Kaynak kodunu geliştirmek, kendi API anahtarınızı eklemek veya incelemek isterseniz:
 
 Repoyu klonlayın:
-
-git clone [https://github.com/KULLANICI_ADINIZ/Modern-Hava-Durumu.git](https://github.com/KULLANICI_ADINIZ/Modern-Hava-Durumu.git)
+ ``` bash
+# Windows (PowerShell)
+git clone [https://github.com/Omer-Murat/Modern-Hava-Durumu.git](https://github.com/Omer-Murat/Modern-Hava-Durumu.git)
 cd Modern-Hava-Durumu
-
+ ```
 
 Gereksinimleri yükleyin:
-
+ ``` bash
+# Windows (PowerShell)
 pip install -r requirements.txt
-
+ ```
 
 API Anahtarını Ayarlayın:
 
@@ -90,15 +92,20 @@ Uygulamayı çalıştırın:
 python HavaDurumuApp.py
 
 
-📦 EXE Nasıl Derlenir? (Build)
+# 📦 EXE Nasıl Derlenir? (Build)
 
 Projeyi tek dosya haline getirmek ve ikon/logo dosyasını içine gömmek için şu komutu kullanın:
 
+
+ ``` bash
 # Windows (Terminal veya PowerShell)
 pyinstaller --noconsole --onefile --add-data "logo.png;." --icon=logo.png --name="HavaDurumuApp" HavaDurumuApp.py
+ ```
 
+* (logo.png dosyasının proje klasöründe olduğundan emin olun.)
 
-(Not: logo.png dosyasının proje klasöründe olduğundan emin olun.)
+* Not: Bu proje eğitim amaçlıdır. Telif haklarına saygı gösteriniz.
 
 Lisans: Bu proje MIT Lisansı ile sunulmaktadır.
-Geliştirici: [Adınız/Kullanıcı Adınız]
+
+Geliştirici: Ömer Murat
