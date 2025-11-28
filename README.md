@@ -75,7 +75,7 @@ Kaynak kodunu geliştirmek, kendi API anahtarınızı eklemek veya incelemek ist
 Repoyu klonlayın:
  ``` bash
 # Windows (PowerShell)
-git clone [https://github.com/Omer-Murat/Modern-Hava-Durumu.git](https://github.com/Omer-Murat/Modern-Hava-Durumu.git)
+git clone https://github.com/Omer-Murat/Modern-Hava-Durumu.git
 cd Modern-Hava-Durumu
  ```
 
